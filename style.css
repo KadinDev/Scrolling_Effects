@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.zoom {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    overflow: hidden; /* ? */
+    background: url('https://ogimg.infoglobo.com.br/in/23696191-0fd-95c/FT1086A/652/x82845223.jpg.pagespeed.ic.Dd-EaaftXV.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.zoom::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    background: linear-gradient(transparent, #fff);
+}
+
+.zoom #layer1 {
+    position: absolute;
+    left: 40%;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.zoom #layer2 {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.zoom #text {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 100%;
+    transform: translateY(50%);
+}
+
+.content {
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.content h2 {
+    font-family: 'Texturina', serif;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
