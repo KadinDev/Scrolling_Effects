@@ -7,3 +7,5 @@
 
 - Depois da Rolagem 
 ![scrolopen](https://user-images.githubusercontent.com/65264902/100778682-130c4d00-33e6-11eb-80f7-bec38c2d59b5.jpg)
+
+[Veja o video](https://www.linkedin.com/feed/update/urn:li:activity:6739600347599290368/)
